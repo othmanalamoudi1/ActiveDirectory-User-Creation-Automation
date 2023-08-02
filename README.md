@@ -48,7 +48,11 @@ Right click on the newly created account and go into properties to give the acco
 <br />
 <br /> 
 Now we can sign out of the account and see that we are able to log in to our newly created Domain Admin Account : <br/>
-<img src="https://i.imgur.com/DvqqufJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<img src="https://github.com/othmanalamoudi1/ActiveDirectory-User-Creation-Automation/assets/52235733/f43b8990-3ff2-42ba-9a7e-1640760098e4" alt="Image" style="height:80%; width:80%;">
+
 <br />
 <br />
 Next we will install RAS/NAT on the Domain Controller by Adding Roles and Features and selecting Remote Access as well as Routing : <br/>
@@ -88,7 +92,10 @@ Right click the DHCP server and select Authorize and then Refresh: <br/>
 <br />
 <br />  
 Save AD_PS-master zip to server desktop: <br/>
-<img src="https://imgur.com/7pixq7h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img src="https://github.com/othmanalamoudi1/ActiveDirectory-User-Creation-Automation/assets/52235733/5daa8d29-8d31-4ec6-aa78-19152baa7fa2" alt="Image" style="height:80%; width:80%;">
+
 <br />
 <br />
 Open PowerSell ISE as administrator and open 1_CREATE_USERS file:  <br/>
@@ -113,11 +120,20 @@ The PowerShell command will comeplete and you will be able to open Active Direct
 <br />
 We can then login to our connected Windows VM as any randomly selected user from the list (Default Password: Password1): <br/>
 <br/>
-<img src="https://imgur.com/ilgymlI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img src="https://github.com/othmanalamoudi1/ActiveDirectory-User-Creation-Automation/assets/52235733/c70d1bc0-2add-4a0c-8846-03b69b1f8aec" alt="Image" style="height:80%; width:80%;">
+
 <br />
 <br />
-Here we can confirm that we are logged in as "acoke" in "mydomain" which is the domain we created:  <br/>
-<img src="https://imgur.com/9EwlaJ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Here we can confirm that we are logged in as "adove" in "mydomain" which is the domain we created:  <br/>
+
+<img src="https://github.com/othmanalamoudi1/ActiveDirectory-User-Creation-Automation/assets/52235733/1c41c8af-e50e-4289-bc6b-8fd1185915cb" alt="Image" style="height:80%; width:80%;">
+
+
+
+
+
 <br />
 
 <!--
